@@ -1,2 +1,27 @@
 This is to test git hub.
 changed in remote.
+C
+
+Git-Commands
+------------
+* git init: Intialization git in Current folder/anywhere
+* git remote add origin https://github.com/SrikanthMupparapu/Infi.git :: For adding repository
+* git add Amazon/ :: Adding project name
+* git status :: Knowing about git status
+* git commit -m "adding Amazon project folder" : Commit and It's message
+* git push origin master :: Push code to git
+
+** git pull origin master :: Pull code from git
+
+
+Process for Push
+-----------------
+Add 
+Commit
+Push
+
+Process for Pull
+----------------
+git push origin master 
+
+
