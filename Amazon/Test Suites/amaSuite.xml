@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+
+<listeners>
+	<listener class-name="ama.Utils.ExtentReportListner"></listener>
+</listeners>
+
+  <test  name="Coveo">
+    <classes>
+     <class name="ama.testScripts.All_Grid"></class>
+	  <class name="ama.testScripts.All_BestSellers"></class>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

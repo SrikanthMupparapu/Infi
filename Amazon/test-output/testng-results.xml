@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T12:05:58Z" name="Test" finished-at="2023-01-04T12:06:56Z" duration-ms="57887">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T12:05:58Z" name="Coveo" finished-at="2023-01-04T12:06:56Z" duration-ms="57887">
+      <class name="ama.testScripts.All_BestSellers">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:ama.testScripts.All_BestSellers@2f465398]" started-at="2023-01-04T12:06:15Z" name="launchbrowser" finished-at="2023-01-04T12:06:16Z" duration-ms="978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="bestsellers()[pri:2, instance:ama.testScripts.All_BestSellers@2f465398]" started-at="2023-01-04T12:06:16Z" name="bestsellers" finished-at="2023-01-04T12:06:33Z" duration-ms="16813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestsellers -->
+        <test-method signature="Alldept()[pri:3, instance:ama.testScripts.All_BestSellers@2f465398]" started-at="2023-01-04T12:06:33Z" name="Alldept" finished-at="2023-01-04T12:06:38Z" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alldept -->
+        <test-method signature="Electronics()[pri:4, instance:ama.testScripts.All_BestSellers@2f465398]" started-at="2023-01-04T12:06:38Z" name="Electronics" finished-at="2023-01-04T12:06:56Z" duration-ms="17485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Electronics -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:ama.testScripts.All_BestSellers@2f465398]" started-at="2023-01-04T12:06:56Z" name="quitbrowser" finished-at="2023-01-04T12:06:56Z" duration-ms="184" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "ama.config.BaseClass.extents" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "ama.config.BaseClass.extents" is null
+at ama.config.BaseClass.quitbrowser(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- ama.testScripts.All_BestSellers -->
+      <class name="ama.testScripts.All_Grid">
+        <test-method is-config="true" signature="setupsuiteinput()[pri:0, instance:ama.testScripts.All_Grid@313b2ea6]" started-at="2023-01-04T12:05:58Z" name="setupsuiteinput" finished-at="2023-01-04T12:05:58Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupsuiteinput -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:ama.testScripts.All_Grid@313b2ea6]" started-at="2023-01-04T12:05:58Z" name="launchbrowser" finished-at="2023-01-04T12:05:59Z" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="AllGrid()[pri:0, instance:ama.testScripts.All_Grid@313b2ea6]" started-at="2023-01-04T12:05:59Z" name="AllGrid" finished-at="2023-01-04T12:06:08Z" duration-ms="9045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllGrid -->
+        <test-method signature="Mensfashion()[pri:1, instance:ama.testScripts.All_Grid@313b2ea6]" started-at="2023-01-04T12:06:08Z" name="Mensfashion" finished-at="2023-01-04T12:06:15Z" duration-ms="6241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mensfashion -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:ama.testScripts.All_Grid@313b2ea6]" started-at="2023-01-04T12:06:15Z" name="quitbrowser" finished-at="2023-01-04T12:06:15Z" duration-ms="163" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "ama.config.BaseClass.extents" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "ama.config.BaseClass.extents" is null
+at ama.config.BaseClass.quitbrowser(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- ama.testScripts.All_Grid -->
+    </test> <!-- Coveo -->
+  </suite> <!-- Test -->
+</testng-results>

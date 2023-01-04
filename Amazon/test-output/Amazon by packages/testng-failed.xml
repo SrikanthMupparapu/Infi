@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ama.testScripts(failed)">
+    <classes>
+      <class name="ama.testScripts.All_Grid">
+        <methods>
+          <include name="setupsuiteinput"/>
+          <include name="launchbrowser"/>
+          <include name="MethodName"/>
+          <include name="report"/>
+          <include name="quitbrowser"/>
+          <include name="AllGrid"/>
+        </methods>
+      </class> <!-- ama.testScripts.All_Grid -->
+    </classes>
+  </test> <!-- ama.testScripts(failed) -->
+</suite> <!-- Failed suite [Amazon by packages] -->

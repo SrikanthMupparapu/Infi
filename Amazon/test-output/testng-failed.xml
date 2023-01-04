@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ama.Utils.ExtentReportListner"/>
+  </listeners>
+  <test thread-count="5" name="Coveo(failed)">
+    <classes>
+      <class name="ama.testScripts.All_BestSellers">
+        <methods>
+          <include name="setupsuiteinput"/>
+          <include name="bestsellers"/>
+          <include name="launchbrowser"/>
+          <include name="quitbrowser"/>
+          <include name="Alldept"/>
+          <include name="Electronics"/>
+        </methods>
+      </class> <!-- ama.testScripts.All_BestSellers -->
+      <class name="ama.testScripts.All_Grid">
+        <methods>
+          <include name="setupsuiteinput"/>
+          <include name="launchbrowser"/>
+          <include name="quitbrowser"/>
+          <include name="AllGrid"/>
+          <include name="Mensfashion"/>
+        </methods>
+      </class> <!-- ama.testScripts.All_Grid -->
+    </classes>
+  </test> <!-- Coveo(failed) -->
+</suite> <!-- Failed suite [Test] -->

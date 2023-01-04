@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonSuite]">
+  <test thread-count="5" name="ama.testScripts(failed)">
+    <classes>
+      <class name="ama.testScripts.All_BestSellers">
+        <methods>
+          <include name="setupsuiteinput"/>
+          <include name="bestsellers"/>
+          <include name="launchbrowser"/>
+          <include name="MethodName"/>
+          <include name="report"/>
+          <include name="quitbrowser"/>
+          <include name="Alldept"/>
+          <include name="Electronics"/>
+        </methods>
+      </class> <!-- ama.testScripts.All_BestSellers -->
+    </classes>
+  </test> <!-- ama.testScripts(failed) -->
+</suite> <!-- Failed suite [AmazonSuite] -->
